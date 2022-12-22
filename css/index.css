@@ -1,0 +1,631 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+  font-family: Raleway;
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+  font-display: swap;
+}
+.botonActualizar{
+  display: fixed;
+  position: relative;
+  z-index: 5;
+  bottom: 4.8em;
+  left: 25%;
+  background-color: white;
+  color: #003a4b;
+  font-weight: 800;
+}
+/* TEXTO GENERAL TITULOS */
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+#header nav {
+  background-color: white;
+}
+/* TEXTO GENERAL TITULOS */
+.text-comfortaa {
+  font-family: "Comfortaa", sans-serif;
+}
+.text-raleway {
+  font-family: "Raleway", sans-serif;
+}
+/* TEXTO GENERAL TITULOS */
+.t-g {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+/* TEXTO GENERAL TITULOS DISPOSITIVOS MOVILES */
+.t-g-mobile {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+.t-small-conforta {
+  font-size: 14px !important;
+}
+/* TAMAÑO PARA LOS PARRAFOS PRIMARIOS*/
+.p-g1 {
+  font-style: normal;
+  font-weight: 300;
+  line-height: auto;
+  font-size: 21px;
+}
+/* TAMAÑO PARA LOS PARRAFOS SECUNDARIOS*/
+.p-g2 {
+  font-style: normal;
+  font-weight: 300;
+  line-height: auto;
+  font-size: 16px;
+}
+/* BACKGROUND-COLORS */
+.bg-linear-gradient-green-light {
+  background: linear-gradient(270deg, #b4e379 0%, #6cd490 100%);
+}
+.bg-linear-gradient-blue-light {
+  background: linear-gradient(270deg, #8fddaa 0%, #59ab9b 100%);
+}
+.bg-linear-gradiente-red {
+  background: linear-gradient(270deg, #eb6e82 0%, #dc4c5a 100%);
+}
+.bg-orange-dark {
+  background-color: #e65c36;
+}
+.bg-orange-light {
+  background-color: #f0a33d;
+}
+.bg-blue-dark {
+  background-color: #59ab9b;
+}
+.bg-red-dark {
+  background-color: #cf4545;
+}
+.bg-green-apple-light {
+  background-color: #6cd490;
+}
+.bg-grey-light {
+  background-color: #8080801a;
+}
+.bg-grey {
+  background-color: #e7e7e738;
+}
+/* COLOR TEXTO TITULOS */
+.text-red {
+  color: #cf4545;
+}
+.text-orange {
+  color: #e65c36;
+}
+.text-orange-light {
+  color: #f0a33d;
+}
+.text-white {
+  color: white;
+}
+.text-green-apple-light {
+  color: #6cd490;
+}
+.text-green-olivo {
+  color: #182e39;
+}
+.text-green-dark {
+  color: #207e50;
+}
+.text-green-light {
+  color: #59ab9b;
+}
+.text-green-apple {
+  color: #8ce63c;
+}
+/* COLOR TEXTO PARRAFOS GRIS */
+.p-white {
+  color: white;
+}
+.p-grey {
+  color: #616161;
+}
+.p-grey-light {
+  color: #c8cccc;
+}
+.p-green-light {
+  color: #6cd490;
+}
+.bg-blue-light {
+  color: #59ab9b;
+}
+/* HR DIVISORES EN LOS TITULOS */
+.hr-sm {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hr-md {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hr-lg {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hr-border-orange {
+  border: 1px solid #e65c36;
+}
+.hr-border-white {
+  border: 1px solid white;
+}
+.hr-border-red {
+  border: 1px solid #cf4545;
+}
+.hr-border-green-light {
+  border: 1px solid #59ab9b;
+}
+.hr-border-grey-dark {
+  border: 1px solid #c7c7c765;
+}
+.hr-border-green-apple {
+  border: 1px solid #6cd490;
+}
+/* DISPLAY NONE PARA OCULTAR OBJETOS EN FORMATO MOBILE */
+.d-none {
+  display: none;
+}
+.animate__slowed {
+  --animate-duration: 4s;
+}
+.align-items-center {
+  align-items: center;
+}
+/* --------------------- */
+/* --------------------- */
+
+.image-familia1 {
+  height: 500px;
+  width: auto;
+}
+
+.border-none {
+  border: none;
+}
+.lift {
+  transition: 250ms linear;
+}
+.lift:hover {
+  text-decoration: none;
+  transform: translate3d(0px, -5px, 0px);
+  cursor: pointer;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+}
+
+/* -------- CARDS ----------- */
+.container-step {
+  border: none;
+  transition: 250ms linear;
+}
+.container-step:hover {
+  text-decoration: none;
+  transform: translate3d(0px, -19px, 0px);
+  cursor: pointer;
+}
+.container-obituario {
+  border: none;
+}
+.container-obituario:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* -------- CARDS ----------- */
+
+/* .image-venues{
+    width: auto;
+    height: 400px;
+} */
+.btn-outline-green {
+  color: #59ab9b;
+  border-color: #59ab9b;
+}
+.btn-outline-green:hover {
+  color: #fff;
+  background-color: #59ab9b;
+  border-color: #59ab9b;
+}
+
+/* -------- CONTACT ----------- */
+.btn-green-light {
+  color: #6cd490;
+  border-color: #6cd490;
+}
+.btn-green-light:hover {
+  color: #fff;
+  background-color: #6cd490;
+  border-color: #6cd490;
+}
+/* -------- FOOTER ----------- */
+.list-simple-white {
+  list-style: none;
+}
+.list-simple-white li {
+  padding: 10px;
+}
+.list-simple-white a {
+  text-decoration: none;
+  color: white;
+}
+
+/* -------- QUIENES SOMOS ----------- */
+/* -------- Red Olivos ----------- */
+.image-red-olivos {
+  width: 700px;
+  height: auto;
+}
+
+/* -------- equipo homenanejes ----------- */
+.image-equipo-homenajes {
+  width: 640px;
+  height: auto;
+}
+
+/* -------- logo olivos blanco ----------- */
+.logo-olivos-blanco {
+  width: 230px;
+  height: auto;
+}
+
+/* -------- PLANES VITALICIOS ----------- */
+#tabs-planes {
+  padding-left: 32%;
+}
+.ui-tabgroup {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.ui-tabgroup:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.ui-tabgroup > .ui-tabs {
+  float: left;
+  width: 100%;
+}
+.ui-tabgroup > .ui-tabs > [class^="ui-tab"] {
+  position: relative;
+  float: left;
+  display: block;
+  background-color: #fff;
+  color: #b9c5c8;
+  margin: 0 0 1px 0;
+  padding: 9px 15px;
+  cursor: pointer;
+  min-width: 100%;
+  min-height: 40px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #d9e5e8;
+  font-size: 13px;
+  font-weight: bold;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+.ui-tabgroup > .ui-tabs > [class^="ui-tab"] > .fa {
+  padding-right: 10px;
+  font-size: 15px;
+}
+.ui-tabgroup > input[class^="ui-tab"] {
+  -webkit-appearance: none;
+  -moz-appearance: none !important;
+  position: relative;
+  float: left;
+  left: -99999px;
+  padding: 0;
+  margin: 0 0 0 -5px; /* FireFox hack */
+  height: 0;
+  width: 0;
+  z-index: -100;
+  overflow: hidden;
+  outline: 0;
+  float: left;
+}
+.ui-tabs label {
+  font-size: 20px !important;
+}
+.ui-tabgroup > input.ui-tab1:focus ~ .ui-tabs > .ui-tab1,
+.ui-tabgroup > input.ui-tab2:focus ~ .ui-tabs > .ui-tab2,
+.ui-tabgroup > input.ui-tab3:focus ~ .ui-tabs > .ui-tab3,
+.ui-tabgroup > input.ui-tab4:focus ~ .ui-tabs > .ui-tab4,
+.ui-tabgroup > input.ui-tab5:focus ~ .ui-tabs > .ui-tab5,
+.ui-tabgroup > input.ui-tab6:focus ~ .ui-tabs > .ui-tab6,
+.ui-tabgroup > input.ui-tab7:focus ~ .ui-tabs > .ui-tab7,
+.ui-tabgroup > input.ui-tab8:focus ~ .ui-tabs > .ui-tab8,
+.ui-tabgroup > input.ui-tab9:focus ~ .ui-tabs > .ui-tab9 {
+  text-decoration: underline;
+  box-shadow: inset 0 40px 60px -40px rgba(255, 255, 255, 0.2);
+}
+.ui-tabgroup > input.ui-tab1:checked ~ .ui-tabs > .ui-tab1,
+.ui-tabgroup > input.ui-tab2:checked ~ .ui-tabs > .ui-tab2,
+.ui-tabgroup > input.ui-tab3:checked ~ .ui-tabs > .ui-tab3,
+.ui-tabgroup > input.ui-tab4:checked ~ .ui-tabs > .ui-tab4,
+.ui-tabgroup > input.ui-tab5:checked ~ .ui-tabs > .ui-tab5,
+.ui-tabgroup > input.ui-tab6:checked ~ .ui-tabs > .ui-tab6,
+.ui-tabgroup > input.ui-tab7:checked ~ .ui-tabs > .ui-tab7,
+.ui-tabgroup > input.ui-tab8:checked ~ .ui-tabs > .ui-tab8,
+.ui-tabgroup > input.ui-tab9:checked ~ .ui-tabs > .ui-tab9 {
+  background-color: #fff;
+  color: #59ab9b;
+  position: relative;
+}
+.ui-tabgroup > .ui-panels > [class^="ui-tab"] {
+  background-color: #fff;
+  color: #212121;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #d9e5e8;
+  min-height: 200px;
+  padding: 25px;
+  display: none;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  float: left;
+  width: 100%;
+}
+.ui-tabgroup.left-side > .ui-panels > [class^="ui-tab"] {
+  border-width: 1px;
+}
+.ui-tabgroup > .ui-panels > [class^="ui-tab"]:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.ui-tabgroup > input.ui-tab1:checked ~ .ui-panels > .ui-tab1,
+.ui-tabgroup > input.ui-tab2:checked ~ .ui-panels > .ui-tab2,
+.ui-tabgroup > input.ui-tab3:checked ~ .ui-panels > .ui-tab3,
+.ui-tabgroup > input.ui-tab4:checked ~ .ui-panels > .ui-tab4,
+.ui-tabgroup > input.ui-tab5:checked ~ .ui-panels > .ui-tab5,
+.ui-tabgroup > input.ui-tab6:checked ~ .ui-panels > .ui-tab6,
+.ui-tabgroup > input.ui-tab7:checked ~ .ui-panels > .ui-tab7,
+.ui-tabgroup > input.ui-tab8:checked ~ .ui-panels > .ui-tab8,
+.ui-tabgroup > input.ui-tab9:checked ~ .ui-panels > .ui-tab9 {
+  display: block;
+}
+.ui-tabs:not(.left-side) > .ui-panels > [class^="ui-tab"] {
+  width: 100%;
+}
+.ui-tabgroup.left-side.icons-only > .ui-tabs {
+  width: 50px;
+  float: left;
+}
+.ui-tabgroup.left-side.icons-only > .ui-panels {
+  margin-left: 50px;
+}
+.ui-tabgroup.left-side.icons-only > .ui-tabs > .ui-tab:first-child {
+  margin: 5px 0 0 0;
+}
+.ui-tabgroup.left-side.icons-only > .ui-tabs > [class^="ui-tab"] {
+  border-width: 2px 0 2px 2px;
+  margin: 1px 0 0 0;
+  width: 100%;
+}
+/* ====================================================== */
+
+.card-obituarios-en-linea {
+  border-radius: 40px;
+  font-family: "Comfortaa";
+  border: 1px solid #8080801f;
+  box-shadow: 0px 9px 5px 0px #8080800f;
+  max-height: 415px;
+}
+
+@media screen and (min-width: 639px) {
+  .ui-tabgroup.left-side > .ui-tabs {
+    width: 140px;
+    float: left;
+  }
+  .ui-tabgroup.left-side > .ui-panels {
+    margin-left: 140px;
+  }
+  .ui-tabgroup.left-side.icons-only > .ui-tabs {
+    width: 50px;
+    float: left;
+  }
+  .ui-tabgroup.left-side.icons-only > .ui-panels {
+    margin-left: 50px;
+  }
+  .ui-tabs:not(.left-side) > .ui-panels {
+    float: left;
+    width: 100%;
+  }
+  .ui-tabgroup > .ui-tabs > [class^="ui-tab"]:first-child {
+    margin: 1px 0 0 5px;
+  }
+  .ui-tabgroup > .ui-tabs > [class^="ui-tab"] {
+    margin: 1px 0 0 1px;
+    min-width: 50px;
+  }
+  .ui-tabgroup > input.ui-tab1:checked ~ .ui-tabs > .ui-tab1:after,
+  .ui-tabgroup > input.ui-tab2:checked ~ .ui-tabs > .ui-tab2:after,
+  .ui-tabgroup > input.ui-tab3:checked ~ .ui-tabs > .ui-tab3:after,
+  .ui-tabgroup > input.ui-tab4:checked ~ .ui-tabs > .ui-tab4:after,
+  .ui-tabgroup > input.ui-tab5:checked ~ .ui-tabs > .ui-tab5:after,
+  .ui-tabgroup > input.ui-tab6:checked ~ .ui-tabs > .ui-tab6:after,
+  .ui-tabgroup > input.ui-tab7:checked ~ .ui-tabs > .ui-tab7:after,
+  .ui-tabgroup > input.ui-tab8:checked ~ .ui-tabs > .ui-tab8:after,
+  .ui-tabgroup > input.ui-tab9:checked ~ .ui-tabs > .ui-tab9:after {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+  }
+  .ui-tabgroup.left-side > input.ui-tab1:checked ~ .ui-tabs > .ui-tab1:after,
+  .ui-tabgroup.left-side > input.ui-tab2:checked ~ .ui-tabs > .ui-tab2:after,
+  .ui-tabgroup.left-side > input.ui-tab3:checked ~ .ui-tabs > .ui-tab3:after,
+  .ui-tabgroup.left-side > input.ui-tab4:checked ~ .ui-tabs > .ui-tab4:after,
+  .ui-tabgroup.left-side > input.ui-tab5:checked ~ .ui-tabs > .ui-tab5:after,
+  .ui-tabgroup.left-side > input.ui-tab6:checked ~ .ui-tabs > .ui-tab6:after,
+  .ui-tabgroup.left-side > input.ui-tab7:checked ~ .ui-tabs > .ui-tab7:after,
+  .ui-tabgroup.left-side > input.ui-tab8:checked ~ .ui-tabs > .ui-tab8:after,
+  .ui-tabgroup.left-side > input.ui-tab9:checked ~ .ui-tabs > .ui-tab9:after {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    top: 0;
+    left: 138px;
+    height: 100%;
+    width: 3px;
+  }
+  .ui-tabgroup.left-side > .ui-tabs > .ui-tab:first-child {
+    margin: 5px 0 0 0;
+  }
+  .ui-tabgroup.left-side > .ui-tabs > [class^="ui-tab"] {
+    border-width: 1px 0 1px 1px;
+    margin: 1px 0 0 0;
+    width: 100%;
+  }
+}
+
+.bg-parque-cementerio {
+  background-image: url(../images/bannerweb.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bg-cementerio-login {
+  background-image: url(../images/parqueCementerio.webp);
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+.img-noticia {
+  max-width: 100%;
+}
+.limitado {
+  min-height: 60px;
+}
+.container-refresh-cache {
+	position: fixed;
+	bottom: 65px;
+	right: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: white;
+	transition: 250ms linear;
+	z-index: 10000;
+}
+.container-refresh-cache:hover {
+	cursor: pointer;
+	color: white;
+	transform: translateX(-5px);
+}
+.container-whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+  padding-top: 12px;
+  padding-left: 14px;
+  color: white;
+  transition: 250ms linear;
+  z-index: 10000;
+}
+.container-whatsapp:hover {
+  cursor: pointer;
+  color: white;
+  transform: translateX(-5px);
+}
+.container-card-notice {
+  background-color: #e4e4e457;
+  border-radius: 3%;
+  height: fit-content;
+  padding: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+  .pt-md-11 {
+    padding-top: 6rem !important;
+  }
+  .pt-md-12 {
+    padding-top: 7rem;
+  }
+  .pt-md-13 {
+    padding-top: 8rem !important;
+  }
+  .pb-md-11 {
+    padding-bottom: 6rem !important;
+  }
+  .pb-md-13 {
+    padding-bottom: 8rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .bg-parque-cementerio {
+    background-image: url(../images/parqueCementerio.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .pt-md-13 {
+    padding-top: 8rem !important;
+  }
+  /* -------- imagen familia ----------- */
+  .image-familia1 {
+    height: auto;
+    width: 100%;
+  }
+  /* -------- imagen red olivos ----------- */
+  .image-red-olivos {
+    width: 100%;
+    height: auto;
+  }
+  /* -------- imagen equipo homenajes ----------- */
+  .image-equipo-homenajes {
+    width: 100%;
+    height: auto;
+  }
+  /* -------- logo olivos blanco ----------- */
+  .logo-olivos-blanco {
+    width: 100%;
+    height: auto;
+  }
+  /* -------- PLANES VITALICIOS ----------- */
+  #tabs-planes {
+    padding-left: 0 !important;
+  }
+  /* -------- PLANES VITALICIOS ----------- */
+  .d-flex {
+    flex-direction: column;
+  }
+  .dis-none {
+    display: none;
+  }
+}
